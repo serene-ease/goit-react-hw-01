@@ -1,4 +1,6 @@
-function Profile({name, tag, location, image, stats:{Followers, Views, Likes}}) {
+import State from "../State/State"
+
+function Profile({name, tag, location, image, stats:{followers, views, likes}}) {
  return (
  <div className="Card">
          <img
@@ -10,13 +12,13 @@ function Profile({name, tag, location, image, stats:{Followers, Views, Likes}}) 
         <p>{name}</p>
         <p>{tag}</p>
         <p>{location}</p>
-        <div>
-            <p>{Followers}</p>
-            <p>{Views}</p>
-            <p>{Likes}</p>
-        </div>
+        <ul>
+            <State label="Followers" value={followers}/>,
+            <State label="Views" value={views}/>,
+            <State label="Likes" value={likes}/>
+        </ul>
  </div>
  )
 }
 
-export {Profile}
+export default Profile

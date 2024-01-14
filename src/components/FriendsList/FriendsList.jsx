@@ -1,4 +1,4 @@
-import {Profile} from "../Profile/Profile.jsx"
+import Friend from "../Friend/Friend"
 
 
 function FriendsList({items}) {
@@ -7,11 +7,11 @@ function FriendsList({items}) {
                 <ul>
                     {items.map(item => (
                             <li key={item.id}>
-                                <Profile user={item}/>
+                                <Friend  user={item}/>
                             </li>
                     ))}
                 </ul>
             )
   }
 
-  export {FriendsList}
+  export default FriendsList
