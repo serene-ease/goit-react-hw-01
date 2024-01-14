@@ -1,15 +1,17 @@
-import {Profile} from '../Profile/Profile'
+import {Profile} from "../Profile/Profile.jsx"
 
 
-export function FriendsList({users}) {
+function FriendsList({items}) {
   
     return (
-            <ul>
-                {users.map(user => (
-                        <li key={user.id}>
-                            <Profile user={user}/>
-                        </li>
-                ))}
-            </ul>
+                <ul>
+                    {items.map(item => (
+                            <li key={item.id}>
+                                <Profile user={item}/>
+                            </li>
+                    ))}
+                </ul>
             )
   }
+
+  export {FriendsList}

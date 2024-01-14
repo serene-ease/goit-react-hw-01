@@ -5,38 +5,38 @@
     "tag": "Girlfriend",
     "location": "Kembrige",
     "image": "https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "stats": "active"
+    "stats": {"Followers": "103", "Views": "5015", "Likes":"1324"}
 },
 {
     "id": "2",
     "name": "Jylly Firestater",
-    "tag": "@23",
-    "location": "",
+    "tag": "23",
+    "location": "Here",
     "image": "https://bipbap.ru/wp-content/uploads/2017/04/9963_original.jpg",
-    "stats": "Offline"
+    "stats": {"Followers": "205", "Views": "8761", "Likes":"4678"}
 },
 {
     "id": "3",
-    "name": "Tommy Dry",
-    "tag": "@dsg",
-    "location": "",
+    "name": "Tommy Dru",
+    "tag": "dsg",
+    "location": "There",
     "image": "https://plus.unsplash.com/premium_photo-1672239496290-5061cfee7ebb?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "stats": "deleted"
+    "stats": {"Followers": "87", "Views": "7835", "Likes":"6752"}
 },
 {
     "id": "4",
     "name": "Kelly Williams",
-    "tag": "@Kelly",
+    "tag": "Kelly",
     "location": "New York",
     "image": "https://images.unsplash.com/photo-1635488640163-e5f6782cda6e?q=80&w=1288&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "stats": "Offline"
+    "stats": {"Followers": "464", "Views": "23962", "Likes":"15758"}
 },
 {
     "id": "5",
     "name": "Larry Theiger",
-    "tag": "@larry",
+    "tag": "larry",
     "location": "Kalidfornia",
     "image": "https://images.unsplash.com/photo-1488161628813-04466f872be2?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "stats": "active"
+    "stats": {"Followers": "268", "Views": "16834", "Likes":"18936"}
 }
 ]

@@ -2,12 +2,13 @@ import users from "../../userData.json"
 import { FriendsList } from "../FriendsList/FriendsList"
 
 
-export function App() {
+function App() {
   
-  return (
-    <div>
-     <FriendsList items={users} />
-  </div>
-  )
+    return  (
+              <div>
+                <FriendsList items={users} />
+              </div>
+            )
 }
 
+export {App};
