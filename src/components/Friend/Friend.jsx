@@ -1,9 +1,12 @@
-export default function Friend({ user: { name, isOnline, id, avatar } }) {
+import css from './Friend.module.css';
+
+export default function Friend({ user: { name, isOnline, avatar } }) {
+  const status = isOnline ? css.online : css.offline;
   return (
-    <div className="Card">
-      <img src={avatar} alt="User photo" width="100" height="100" />
-      <p>{name}</p>
-      <p>{isOnline}</p>
+    <div className={css.card}>
+      <img className={css.avatar} src={avatar} alt="User photo" />
+      <p className={css.name}>{name}</p>
+      <p className={css.status}>{isOnline ? 'Online' : 'Offline'}</p>
     </div>
   );
 }

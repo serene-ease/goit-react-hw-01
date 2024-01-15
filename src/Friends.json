@@ -1,32 +1,32 @@
 [
-    {
-      "avatar": "https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "name": "Lancy Perlmutter",
-      "isOnline": true,
-      "id": 1812
-    },
-    {
-      "avatar": "https://bipbap.ru/wp-content/uploads/2017/04/9963_original.jpg",
-      "name": "Jylly Firestater",
-      "isOnline": false,
-      "id": 1137
-    },
-    {
-      "avatar": "https://plus.unsplash.com/premium_photo-1672239496290-5061cfee7ebb?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "name": "Tommy Dru",
-      "isOnline": true,
-      "id": 1213
-    },
-    {
-      "avatar": "https://images.unsplash.com/photo-1635488640163-e5f6782cda6e?q=80&w=1288&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "name": "Kelly Williams",
-      "isOnline": true,
-      "id": 1714
-    },
-    {
-      "avatar": "https://images.unsplash.com/photo-1488161628813-04466f872be2?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "name": "Larry Theiger",
-      "isOnline": false,
-      "id": 1284
-    }
-  ]
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
+    "name": "Mango",
+    "isOnline": true,
+    "id": 1812
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png",
+    "name": "Kiwi",
+    "isOnline": false,
+    "id": 1137
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1623/1623681.png",
+    "name": "Ajax",
+    "isOnline": true,
+    "id": 1213
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2977/2977285.png",
+    "name": "Jay",
+    "isOnline": true,
+    "id": 1714
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998749.png",
+    "name": "Poly",
+    "isOnline": false,
+    "id": 1284
+  }
+]

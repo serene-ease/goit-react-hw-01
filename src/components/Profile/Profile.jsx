@@ -1,18 +1,20 @@
+import css from './Profile.module.css';
+
 export default function Profile({ items: { username, tag, location, avatar, stats } }) {
   const keys = Object.keys(stats);
   return (
-    <div>
-      <img src={avatar} alt="User photo" width="150" height="150" />
-      <p>{username}</p>
-      <p>@{tag}</p>
-      <p>{location}</p>
-      <p>{stats.followers}</p>
-      <ul>
+    <div className={css.profile}>
+      <img src={avatar} alt="User photo" className={css.avatar} />
+      <p className={css.name}>{username}</p>
+      <p className={css.tag}>@{tag}</p>
+      <p className={css.location}>{location}</p>
+
+      <ul className={css.stats}>
         {keys.map(item => {
           return (
-            <li key={item}>
-              <span>{item}</span>
-              <span>{stats[item]}</span>
+            <li className={css.statsItem} key={item}>
+              <span className={css.label}>{item}</span>
+              <span className={css.statsData}>{stats[item]}</span>
             </li>
           );
         })}
