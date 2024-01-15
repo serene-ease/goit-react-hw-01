@@ -1,6 +1,6 @@
 import Transaction from "../Transaction/Transaction"
 
-function Table ({items}) {
+export default function Table ({items}) {
     return (
         <table className="transaction-history">
         <thead>
@@ -14,7 +14,7 @@ function Table ({items}) {
         <tbody>
             {items.map(row => (
                 <tr key={row.id}>
-                    <Transaction items={row} />
+                    <Transaction items={row}              />
                 </tr>
 
 
@@ -24,4 +24,3 @@ function Table ({items}) {
     )
 }
 
-export default Table

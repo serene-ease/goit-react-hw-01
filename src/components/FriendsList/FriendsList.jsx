@@ -1,7 +1,7 @@
 import Friend from "../Friend/Friend"
 
 
-function FriendsList({items}) {
+export default function FriendsList({items}) {
   
     return (
                 <ul>
@@ -14,4 +14,3 @@ function FriendsList({items}) {
             )
   }
 
-  export default FriendsList

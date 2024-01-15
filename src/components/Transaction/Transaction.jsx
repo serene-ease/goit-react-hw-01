@@ -1,9 +1,9 @@
-function Transaction ({type, amount, currency}) {
+function Transaction ( {items: {type, amount, currency}}) {
     return (
                 <tr>
-                <td>{type}</td>
-                <td>{amount}</td>
-                <td>{currency}</td>
+                    <td>{type}</td>
+                    <td>{amount}</td>
+                    <td>{currency}</td>
                 </tr>      
     )
 }
