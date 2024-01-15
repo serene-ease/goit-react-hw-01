@@ -52,3 +52,53 @@
     </li>
   )})}</ul> */
 }
+
+//
+// export default function Profile({ items: { username, tag, location, avatar, stats } }) {
+//   return (
+//     <div>
+//       <img src={avatar} alt="User photo" width="150" height="150" />
+//       <p>{username}</p>
+//       <p>@{tag}</p>
+//       <p>{location}</p>
+//       <ul>
+//         {Object.Keys(stats).map(keys => {
+//           return (
+//             <li key={keys}>
+//               <span>{keys}</span>
+//               <span>{stats.keys}</span>
+//             </li>
+//           );
+//         })}
+//       </ul>
+//     </div>
+//   );
+// }
+//
+//-------------------
+// export default function Profile({ items: { username, tag, location, avatar, stats } }) {
+//   const keys = Object.Keys(stats);
+//   return (
+//     <div>
+//       <img src={avatar} alt="User photo" width="150" height="150" />
+//       <p>{username}</p>
+//       <p>@{tag}</p>
+//       <p>{location}</p>
+//       <ul>
+//         {keys.map(ke => {
+//           <State items={ke} />;
+//         })}
+//       </ul>
+//     </div>
+//   );
+// }
+
+// function State(items) {
+//   return (
+//     <li key={items}>
+//       <span>{items}</span>
+//       <span>{stats.items}</span>
+//     </li>
+//   );
+// }
+//--------------------------

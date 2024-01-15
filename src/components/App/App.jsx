@@ -11,7 +11,7 @@ function App() {
     <div>
       <Profile items={currentUser} />
       <FriendsList items={friends} />
-      <Table items={transactions} />
+      {/* <Table items={transactions} /> */}
     </div>
   );
 }
