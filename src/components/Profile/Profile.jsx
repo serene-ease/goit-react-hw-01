@@ -1,19 +1,19 @@
-export default function Profile({items:{ username, tag, location, avatar, stats: {label, value} }}) {
+export default function Profile({ items: { username, tag, location, avatar, stats } }) {
   return (
-    <div className="card">
-      <img src={avatar} alt="User photo" width="100" height="100" />
+    <div>
+      <img src={avatar} alt="User photo" width="150" height="150" />
       <p>{username}</p>
       <p>@{tag}</p>
       <p>{location}</p>
       <ul>
-        {/* {stats.map(({label, value}) => {
-                return (
-                    <li key={label}>
-                        <span className="label">{label}</span>
-                        <span className="value">{value}</span>
-                    </li>                  
-                )
-            })} */}
+        {Object.Keys(stats).map(key => {
+          return (
+            <li key={key}>
+              <span>{key}</span>
+              <span>{stats.key}</span>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
