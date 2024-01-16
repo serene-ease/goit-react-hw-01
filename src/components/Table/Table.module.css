@@ -28,7 +28,6 @@ tr:nth-child(even) {
 
 .tbItem {
     composes: tItem;
-    color:#000;
 }
 
 .tbody:hover,

@@ -7,6 +7,7 @@
     width: 200px;
     border: 2px solid #000;
     border-radius: 5px;
+    
 }
 
 .avatar {
@@ -15,20 +16,21 @@
 }
 
 .name {
-    font-size: 30px;
+    font-size: 60px;
     margin-bottom: 5px;
+    color: blue;
 }
 
 .status {
-    font-size: 12px;
+    font-size: 48px;
 }
 
-.online {
+.isOnline {
     composes: status;
-    color: #128511;
+    color: #0cc509;      
 }
 
-.offline {
+.isOffline {
     composes: status;
     color: #ff1814;
 }
